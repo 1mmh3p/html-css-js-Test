@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Languages</title>
+    <link rel="stylesheet" href="select_languages.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="usernameDisplay"></h2>
+        <h2>Select Programming Languages</h2>
+        <form id="languageForm" action="#">
+            <div class="form-group">
+            <label class="container-check">
+                <input checked="checked" type="checkbox" id="html" name="html" value="html">
+                <label for="html">HTML (HTML)</label>
+                <div class="checkmark"></div>
+            </label>
+            </div>
+            
+            <div class="form-group">
+                <label class="container-check">
+                    <input checked="checked" type="checkbox"id="css" name="css" value="css">
+                <label for="css">CSS (CSS)</label>
+                <div class="checkmark"></div>
+            </label>
+            </div>
+            <div class="form-group">
+                <label class="container-check">
+                    <input checked="checked" type="checkbox" id="javascript" name="javascript" value="javascript">
+                <label for="javascript">JavaScript (JS)</label>
+                <div class="checkmark"></div>
+            </label>
+            </div>
+            <!-- Add more checkboxes for other programming languages with their abbreviations -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+   
+    <script src="select_languages.js"></script>
+</body>
+</html>
